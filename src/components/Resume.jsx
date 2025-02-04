@@ -11,7 +11,7 @@ const Resume = () => {
       <div className="text-center mb-4">
         <Button
           variant="success"
-          href="/path/to/your/resume.pdf" // Replace with actual link to your resume file
+          href="'../assets/GLOVIERMargauxResume2025.pdf'" // Replace with actual link to your resume file
           target="_blank"
         >
           Download Resume
