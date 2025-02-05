@@ -1,16 +1,26 @@
 // AboutMe.js
 import React from 'react';
+import ProfileImage from '../assets/images/headshotglovier.jpeg';
 
 const AboutMe = () => {
+  // Inline styles for the profile image
+  const profileImageStyle = {
+    width: '150px',       // Set the width of the image
+    height: '150px',      // Set the height of the image
+    objectFit: 'cover',   // Ensures the image fills the space correctly
+    borderRadius: '50%',  // Makes the image circular
+    margin: '0 auto'      // Centers the image horizontally
+  };
+
   return (
     <section id="about-me" className="about-me-section">
       <div className="about-me-container">
         {/* Profile Image */}
         <div className="about-me-image">
           <img
-            src="https://via.placeholder.com/150" // Replace with your own image URL
+            src={ProfileImage} // Use the imported image here
             alt="Developer"
-            className="profile-image"
+            style={profileImageStyle}  // Apply the inline styles
           />
         </div>
 

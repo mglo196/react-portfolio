@@ -1,4 +1,3 @@
-// Resume.js
 import React from 'react';
 import { Container, ListGroup, Button } from 'react-bootstrap';
 
@@ -11,13 +10,14 @@ const Resume = () => {
       <div className="text-center mb-4">
         <Button
           variant="success"
-          href="'../assets/GLOVIERMargauxResume2025.pdf'" // Replace with actual link to your resume file
+          href="/assets/GLOVIERMargauxResume2025.pdf" // Correct path to the file in public folder
           target="_blank"
         >
           Download Resume
         </Button>
       </div>
 
+      {/* Proficiencies List */}
       <h4>Proficiencies</h4>
       <ListGroup>
         <ListGroup.Item>HTML5, CSS3, JavaScript</ListGroup.Item>

@@ -1,22 +1,26 @@
 import React from 'react';
 import { Row, Col, Card, Button } from 'react-bootstrap';
+import weatherDashboardImg from '../assets/images/weather-dashboard.png'; 
+
+import employeeDatabaseImg from '../assets/images/candidateSearchPage.png'
 
 const Portfolio = () => {
   // Assuming you have an array of projects like this:
   const projects = [
     {
-      title: 'Project 1',
-      description: 'Description of Project 1',
-      imageUrl: 'https://via.placeholder.com/150',
-      liveLink: 'https://example.com',
-      repoLink: 'https://github.com/example',
+      title: 'Weather Dashboard',
+      description: 'This Challenge builds a weather dashboard application that calls the OpenWeather API and renders data in the browser.',
+      imageUrl: weatherDashboardImg,
+      liveLink: 'https://module-9-challenge-62j9.onrender.com/',
+      repoLink: 'https://github.com/mglo196/module-9-challenge',
     },
+
     {
-      title: 'Project 2',
-      description: 'Description of Project 2',
-      imageUrl: 'https://via.placeholder.com/150',
-      liveLink: 'https://example.com',
-      repoLink: 'https://github.com/example',
+      title: 'Employee Database',
+      description: 'The Candidate Search app is a front-end project made with TypeScript and React that connects to the GitHub API. It helps employers find candidates, save their profiles to a list, and manage the saved list.',
+      imageUrl: employeeDatabaseImg,
+      liveLink: 'https://module-13-challenge-2.onrender.com/',
+      repoLink: 'https://github.com/mglo196/module-13-challenge',
     },
     // Add more projects as needed...
   ];
