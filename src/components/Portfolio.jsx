@@ -5,7 +5,7 @@ import weatherDashboardImg from '../assets/images/weather-dashboard.png';
 import employeeDatabaseImg from '../assets/images/candidateSearchPage.png'
 
 const Portfolio = () => {
-  // Assuming you have an array of projects like this:
+  // Array of projects like this:
   const projects = [
     {
       title: 'Weather Dashboard',

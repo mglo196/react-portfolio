@@ -37,7 +37,6 @@ const Contact = () => {
 
     if (Object.keys(errors).length === 0) {
       alert('Form submitted successfully!');
-      // Here you can add form submission logic like calling an API or sending an email.
     }
   };
 

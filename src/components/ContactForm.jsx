@@ -25,7 +25,6 @@ const ContactForm = () => {
 
     if (Object.keys(formErrors).length === 0) {
       alert("Form submitted!");
-      // You can handle sending an email or storing the form data here
     }
   };
 

@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap'; // Using Bootstrap for layout
-import NavBar from './components/NavBar'; // Your NavBar component
-import Navigation from './components/Navigation'; // Your Navigation component
-import Footer from './components/Footer'; // Your Footer component
+import NavBar from './components/NavBar'; // NavBar component
+import Navigation from './components/Navigation'; // Navigation component
+import Footer from './components/Footer'; // Footer component
 import AboutMe from './components/AboutMe'; // AboutMe Section
 import Portfolio from './components/Portfolio'; // Portfolio Section
 import Resume from './components/Resume'; // Resume Section
