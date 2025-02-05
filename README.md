@@ -10,6 +10,7 @@ Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Repository and Deployed Application](#repositoryanddeployedapplication)
+- [Screenshot](#screenshot)
 - [Contributions](#contributions)
 
 
@@ -54,6 +55,10 @@ SO THAT I can assess whether they're a good candidate for an open position
 
   - [Project Repo](https://github.com/mglo196/react-portfolio)
   - [Deployed Application](https://reactportfolio323232.netlify.app/#)
+
+## Screenshot
+
+![Screenshot](https://github.com/mglo196/react-portfolio/blob/main/reactportfolio.png) 
 
 ## Contributions
 Contributing
